@@ -1,4 +1,4 @@
 protocol Furniture {
-  func put(object: Any)
-  func take(object: Any)
+  func put(object: Object)
+  func take(object: Object)
 }

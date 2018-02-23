@@ -3,11 +3,11 @@ class Table: Furniture {
 
   }
 
-  func put(object: Any) {
+  func put(object: Object) {
 
   }
 
-  func take(object: Any) {
+  func take(object: Object) {
 
   }
 }
