@@ -1,12 +1,16 @@
 class ConveyorBelt: Furniture {
   var isBusy: Bool = false
-  var content: [NSObject]
+  var content: [Any]
 
-  func put(object: NSObject) {
+  init() {
+    
+  }
+
+  func put(object: Any) {
 
   }
 
-  func take(object: NSObject) {
+  func take(object: Any) {
 
   }
 }

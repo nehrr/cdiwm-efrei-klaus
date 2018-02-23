@@ -1,9 +1,13 @@
 class Table: Furniture {
-  func put(object: NSObject) {
+  init() {
 
   }
 
-  func take(object: NSObject) {
+  func put(object: Any) {
+
+  }
+
+  func take(object: Any) {
 
   }
 }
