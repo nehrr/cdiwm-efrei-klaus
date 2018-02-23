@@ -1,4 +1,4 @@
-protocol Toy : Object {
+protocol Toy {
   var type: String { get }
   func isMoved()
 }
